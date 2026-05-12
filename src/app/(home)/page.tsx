@@ -1,0 +1,58 @@
+import Image from "next/image"
+import Link from "next/link"
+
+import { version } from "../../../package.json"
+
+export default function HomePage() {
+  return (
+    <div className="mx-auto flex w-full max-w-(--fd-layout-width) flex-1 flex-col items-center justify-center border-x px-4 text-center">
+      <Image
+        src="/nusa-ui-logo.svg"
+        alt="NusaUI"
+        width={80}
+        height={80}
+        className="mb-4"
+        priority
+      />
+
+      <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">NusaUI</h1>
+      <Link
+        href="https://github.com/codewithmehmet/nusa-ui/releases"
+        className="bg-muted hover:bg-muted/80 mt-2 rounded-full px-2.5 py-0.5 font-mono text-xs transition-colors"
+      >
+        v{version}
+      </Link>
+      <p className="text-muted-foreground max-w-xxl mt-4 text-lg text-balance">
+        Beautiful, accessible React components built on Radix UI. Copy, paste,
+        and customize.
+      </p>
+      <div className="mt-4 flex items-center gap-2 text-sm">
+        <span>Open source</span>
+        <span>·</span>
+        <span>Fully typed</span>
+        <span>·</span>
+        <span>Production ready</span>
+      </div>
+      <div className="mt-8 flex flex-wrap justify-center gap-3">
+        <Link
+          href="/docs/get-started"
+          className="bg-primary text-primary-foreground hover:bg-primary/80 inline-flex h-10 items-center justify-center rounded-4xl px-6 text-sm font-medium transition-colors"
+        >
+          Get Started
+        </Link>
+        <Link
+          href="/docs/components"
+          className="border-border bg-background text-foreground hover:bg-muted inline-flex h-10 items-center justify-center gap-2 rounded-4xl border px-6 text-sm font-medium transition-colors"
+        >
+          Components
+        </Link>
+        <Link
+          href="/docs/blocks"
+          className="border-border bg-background text-foreground hover:bg-muted inline-flex h-10 items-center justify-center gap-2 rounded-4xl border px-6 text-sm font-medium transition-colors"
+        >
+          Blocks
+        </Link>
+      </div>
+    </div>
+  )
+}

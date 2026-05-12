@@ -1,0 +1,103 @@
+---
+title: Button
+description: Displays a button or a component that looks like a button.
+
+links:
+  doc: https://www.radix-ui.com/primitives/docs/utilities/slot
+  api: https://www.radix-ui.com/primitives/docs/utilities/slot#api-reference
+---
+
+<ComponentPreview name="button-demo" />
+
+## Installation
+
+<CodeTabs>
+
+<TabsList variant="underline">
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsPanel value="cli">
+
+```bash
+npx shadcn@latest add https://nusa-ui.vercel.app/r/button.json
+```
+
+</TabsPanel>
+
+<TabsPanel value="manual">
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install @radix-ui/react-slot
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="button" title="components/ui/button.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsPanel>
+
+</CodeTabs>
+
+## Usage
+
+```tsx
+import { Button } from "@/components/ui/button"
+```
+
+```tsx
+<Button variant="outline">Button</Button>
+```
+
+## Examples
+
+### Secondary
+
+<ComponentPreview name="button-secondary" />
+
+### Destructive
+
+<ComponentPreview name="button-destructive" />
+
+### Outline
+
+<ComponentPreview name="button-outline" />
+
+### Ghost
+
+<ComponentPreview name="button-ghost" />
+
+### Link
+
+<ComponentPreview name="button-link" />
+
+### Icon
+
+<ComponentPreview name="button-icon" />
+
+### With Icon
+
+<ComponentPreview name="button-with-icon" />
+
+### Loading
+
+<ComponentPreview name="button-loading" />
+
+## API Reference
+
+### Button
+
+| Prop      | Type                                                                          | Default     |
+| --------- | ----------------------------------------------------------------------------- | ----------- |
+| `variant` | `"default" \| "outline" \| "ghost" \| "destructive" \| "secondary" \| "link"` | `"default"` |
+| `size`    | `"default" \| "sm" \| "lg" \| "icon" \| "icon-sm" \| "icon-lg"`               | `"default"` |
+| `asChild` | `boolean`                                                                     | `false`     |

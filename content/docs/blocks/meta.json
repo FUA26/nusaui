@@ -1,0 +1,10 @@
+{
+  "title": "Blocks",
+  "pages": [
+    "dashboard-stats",
+    "signin-form",
+    "signup-form",
+    "forgot-password-form",
+    "reset-password-form"
+  ]
+}

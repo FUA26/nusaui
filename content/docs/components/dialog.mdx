@@ -1,0 +1,116 @@
+---
+title: Dialog
+description: A window overlaid on the primary window.
+
+links:
+  doc: https://www.radix-ui.com/primitives/docs/components/dialog
+  api: https://www.radix-ui.com/primitives/docs/components/dialog#api-reference
+---
+
+<ComponentPreview name="dialog-demo" />
+
+## Installation
+
+<CodeTabs>
+
+<TabsList variant="underline">
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsPanel value="cli">
+
+```bash
+npx shadcn@latest add https://nusa-ui.vercel.app/r/dialog.json
+```
+
+</TabsPanel>
+
+<TabsPanel value='manual'>
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install @radix-ui/react-dialog
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="dialog" title="components/ui/dialog.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsPanel>
+
+</CodeTabs>
+
+## Usage
+
+```tsx
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+```
+
+```tsx
+<Dialog>
+  <DialogTrigger>Open</DialogTrigger>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>Are you sure?</DialogTitle>
+      <DialogDescription>This action cannot be undone.</DialogDescription>
+    </DialogHeader>
+    <DialogFooter>
+      <Button type="submit">Confirm</Button>
+    </DialogFooter>
+  </DialogContent>
+</Dialog>
+```
+
+## Examples
+
+### Basic Dialog
+
+<ComponentPreview name="dialog-basic" />
+
+## API Reference
+
+### Dialog
+
+| Component           | Description                      |
+| ------------------- | -------------------------------- |
+| `Dialog`            | The root component               |
+| `DialogTrigger`     | The button that opens the dialog |
+| `DialogContent`     | The dialog content container     |
+| `DialogHeader`      | Header section                   |
+| `DialogTitle`       | The dialog title                 |
+| `DialogDescription` | Description text                 |
+| `DialogFooter`      | Footer section for actions       |
+| `DialogClose`       | Close button component           |
+
+### Dialog Props
+
+| Prop           | Type                      | Default | Description                 |
+| -------------- | ------------------------- | ------- | --------------------------- |
+| `open`         | `boolean`                 | -       | The controlled open state   |
+| `defaultOpen`  | `boolean`                 | -       | The default open state      |
+| `onOpenChange` | `(open: boolean) => void` | -       | Callback when open changes  |
+| `modal`        | `boolean`                 | `true`  | Whether the dialog is modal |
+
+### DialogContent Props
+
+| Prop                   | Type                                       | Default | Description                       |
+| ---------------------- | ------------------------------------------ | ------- | --------------------------------- |
+| `showCloseButton`      | `boolean`                                  | `true`  | Show/hide the close button        |
+| `onEscapeKeyDown`      | `(event: KeyboardEvent) => void`           | -       | Called when escape key is pressed |
+| `onPointerDownOutside` | `(event: PointerDownOutsideEvent) => void` | -       | Called when clicking outside      |
