@@ -17,6 +17,7 @@
     "tabs",
     "accordion",
     "avatar",
-    "separator"
+    "separator",
+    "tooltip"
   ]
 }
