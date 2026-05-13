@@ -45,6 +45,7 @@
     "data-table",
     "spinner",
     "empty",
-    "typography"
+    "typography",
+    "toggle-group"
   ]
 }
