@@ -49,6 +49,7 @@
     "toggle-group",
     "button-group",
     "field",
-    "input-group"
+    "input-group",
+    "combobox"
   ]
 }
