@@ -38,6 +38,7 @@
     "table",
     "tag-input",
     "command",
-    "copy-button"
+    "copy-button",
+    "drawer"
   ]
 }
