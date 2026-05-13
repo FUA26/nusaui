@@ -8,6 +8,7 @@
     "label",
     "form",
     "textarea",
-    "select"
+    "select",
+    "checkbox"
   ]
 }
