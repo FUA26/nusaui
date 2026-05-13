@@ -20,6 +20,7 @@
     "separator",
     "tooltip",
     "collapsible",
-    "code-block"
+    "code-block",
+    "alert"
   ]
 }
