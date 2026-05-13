@@ -597,6 +597,25 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "A date picker component with range and presets.",
+      "dependencies": ["react-day-picker", "date-fns"],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/button.json",
+        "https://nusa-ui.vercel.app/r/calendar.json",
+        "https://nusa-ui.vercel.app/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/date-picker.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
