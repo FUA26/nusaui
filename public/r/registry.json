@@ -593,6 +593,21 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Displays the path to the current resource using a hierarchy of links.",
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/breadcrumb.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

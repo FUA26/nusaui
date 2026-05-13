@@ -32,6 +32,7 @@
     "radio-group",
     "toggle",
     "aspect-ratio",
-    "hover-card"
+    "hover-card",
+    "breadcrumb"
   ]
 }
