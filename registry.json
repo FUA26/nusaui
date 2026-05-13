@@ -809,6 +809,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "number-input",
+      "type": "registry:ui",
+      "title": "Number Input",
+      "description": "A numeric input with increment and decrement buttons.",
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/number-input.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

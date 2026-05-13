@@ -52,6 +52,7 @@
     "input-group",
     "combobox",
     "sidebar",
-    "input-otp"
+    "input-otp",
+    "number-input"
   ]
 }
