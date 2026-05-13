@@ -50,6 +50,7 @@
     "button-group",
     "field",
     "input-group",
-    "combobox"
+    "combobox",
+    "sidebar"
   ]
 }
