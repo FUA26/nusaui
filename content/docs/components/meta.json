@@ -47,6 +47,7 @@
     "empty",
     "typography",
     "toggle-group",
-    "button-group"
+    "button-group",
+    "field"
   ]
 }
