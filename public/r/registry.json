@@ -655,6 +655,25 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "A command menu with search and keyboard navigation.",
+      "dependencies": [
+        "cmdk"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/command.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

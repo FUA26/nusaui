@@ -36,6 +36,7 @@
     "breadcrumb",
     "pagination",
     "table",
-    "tag-input"
+    "tag-input",
+    "command"
   ]
 }
