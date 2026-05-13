@@ -29,6 +29,7 @@
     "skeleton",
     "slider",
     "scroll-area",
-    "radio-group"
+    "radio-group",
+    "toggle"
   ]
 }
