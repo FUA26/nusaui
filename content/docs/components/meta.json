@@ -1,4 +1,4 @@
 {
   "title": "Components",
-  "pages": ["button", "badge", "card", "input", "label", "form"]
+  "pages": ["button", "badge", "card", "input", "label", "form", "textarea"]
 }
