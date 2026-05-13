@@ -44,6 +44,7 @@
     "date-picker",
     "data-table",
     "spinner",
-    "empty"
+    "empty",
+    "typography"
   ]
 }

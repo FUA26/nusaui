@@ -811,6 +811,21 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "typography",
+      "type": "registry:ui",
+      "title": "Typography",
+      "description": "Styled text components for headings, paragraphs, lists, and more.",
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/typography.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
