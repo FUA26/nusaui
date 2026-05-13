@@ -28,6 +28,7 @@
     "popover",
     "skeleton",
     "slider",
-    "scroll-area"
+    "scroll-area",
+    "radio-group"
   ]
 }
