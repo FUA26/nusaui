@@ -16,6 +16,7 @@
     "dropdown-menu",
     "tabs",
     "accordion",
-    "avatar"
+    "avatar",
+    "separator"
   ]
 }
