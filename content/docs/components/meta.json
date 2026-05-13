@@ -54,6 +54,7 @@
     "sidebar",
     "input-otp",
     "number-input",
-    "chart"
+    "chart",
+    "stat-card"
   ]
 }
