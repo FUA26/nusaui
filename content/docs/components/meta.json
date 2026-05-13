@@ -33,6 +33,7 @@
     "toggle",
     "aspect-ratio",
     "hover-card",
-    "breadcrumb"
+    "breadcrumb",
+    "pagination"
   ]
 }
