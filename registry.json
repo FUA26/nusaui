@@ -91,6 +91,23 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "title": "Form",
+      "description": "Form field components for building accessible forms with TanStack Form.",
+      "dependencies": ["@radix-ui/react-slot", "@tanstack/react-form", "zod"],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/form.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
