@@ -616,6 +616,32 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "A powerful data table with sorting, filtering, pagination, row selection and faceted filters.",
+      "dependencies": ["@tanstack/react-table"],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/button.json",
+        "https://nusa-ui.vercel.app/r/input.json",
+        "https://nusa-ui.vercel.app/r/table.json",
+        "https://nusa-ui.vercel.app/r/dropdown-menu.json",
+        "https://nusa-ui.vercel.app/r/select.json",
+        "https://nusa-ui.vercel.app/r/skeleton.json",
+        "https://nusa-ui.vercel.app/r/badge.json",
+        "https://nusa-ui.vercel.app/r/popover.json",
+        "https://nusa-ui.vercel.app/r/command.json",
+        "https://nusa-ui.vercel.app/r/separator.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/data-table.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

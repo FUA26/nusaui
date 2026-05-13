@@ -41,6 +41,7 @@
     "copy-button",
     "drawer",
     "calendar",
-    "date-picker"
+    "date-picker",
+    "data-table"
   ]
 }
