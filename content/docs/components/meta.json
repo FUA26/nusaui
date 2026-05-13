@@ -21,6 +21,7 @@
     "tooltip",
     "collapsible",
     "code-block",
-    "alert"
+    "alert",
+    "progress"
   ]
 }
