@@ -31,6 +31,7 @@
     "scroll-area",
     "radio-group",
     "toggle",
-    "aspect-ratio"
+    "aspect-ratio",
+    "hover-card"
   ]
 }
