@@ -639,6 +639,22 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "tag-input",
+      "type": "registry:ui",
+      "title": "Tag Input",
+      "description": "An input for entering multiple tags with keyboard support.",
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/tag-input.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

@@ -35,6 +35,7 @@
     "hover-card",
     "breadcrumb",
     "pagination",
-    "table"
+    "table",
+    "tag-input"
   ]
 }
