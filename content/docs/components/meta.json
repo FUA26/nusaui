@@ -18,6 +18,7 @@
     "accordion",
     "avatar",
     "separator",
-    "tooltip"
+    "tooltip",
+    "collapsible"
   ]
 }

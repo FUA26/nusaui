@@ -278,6 +278,20 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "An interactive component which expands/collapses a panel.",
+      "dependencies": ["@radix-ui/react-collapsible"],
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/collapsible.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
