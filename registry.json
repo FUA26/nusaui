@@ -642,6 +642,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "title": "Spinner",
+      "description": "A loading indicator for asynchronous operations.",
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/spinner.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

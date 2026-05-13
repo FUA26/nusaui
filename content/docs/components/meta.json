@@ -42,6 +42,7 @@
     "drawer",
     "calendar",
     "date-picker",
-    "data-table"
+    "data-table",
+    "spinner"
   ]
 }
