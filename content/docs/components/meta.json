@@ -53,6 +53,7 @@
     "combobox",
     "sidebar",
     "input-otp",
-    "number-input"
+    "number-input",
+    "chart"
   ]
 }

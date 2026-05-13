@@ -986,6 +986,24 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "description": "Beautiful and responsive charts built with Recharts.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/chart.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
