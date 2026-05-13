@@ -1,15 +1,15 @@
 ---
 title: Chart
-description: Beautiful and responsive charts built with Recharts.
+description: Composable chart primitives for responsive dashboards.
 ---
 
 <ComponentPreview name="chart-demo" previewClassName="h-[550px]" />
 
-## About
+## Overview
 
 The Chart component is built using [Recharts](https://recharts.org/en-US). It provides a set of composable chart components with built-in theming support.
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -36,11 +36,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/chart.json
 npm install recharts
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="chart" title="components/ui/chart.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -48,7 +48,7 @@ npm install recharts
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import {
@@ -112,7 +112,7 @@ const chartConfig = {
 }
 ```
 
-## Examples
+## More examples
 
 ### Bar Chart
 
@@ -158,7 +158,7 @@ The chart components use CSS variables for colors. The following variables are a
 
 These are defined in your `globals.css` with light and dark variants.
 
-## API Reference
+## Props and parts
 
 ### ChartContainer
 

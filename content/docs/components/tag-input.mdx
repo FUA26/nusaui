@@ -1,11 +1,11 @@
 ---
 title: Tag Input
-description: An input for entering multiple tags with keyboard support.
+description: A tokenized field for tags, chips, and suggestion-based entry.
 ---
 
 <ComponentPreview name="tag-input-demo" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -26,11 +26,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/tag-input.json
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="tag-input" title="components/ui/tag-input.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -38,7 +38,7 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/tag-input.json
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import { TagInput } from "@/components/ui/tag-input"
@@ -48,7 +48,7 @@ import { TagInput } from "@/components/ui/tag-input"
 <TagInput defaultValue={["React", "TypeScript"]} />
 ```
 
-## Examples
+## More examples
 
 ### Controlled
 
@@ -66,7 +66,7 @@ Limit the number of tags with `maxTags`.
 
 <ComponentPreview name="tag-input-disabled" />
 
-## API Reference
+## Props and parts
 
 ### TagInput
 

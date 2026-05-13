@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   },
   description:
     "A beautiful component library built with Radix UI and Tailwind CSS.",
+  icons: {
+    icon: "/nusaui.png",
+    apple: "/nusaui.png",
+  },
 }
 
 export default function Layout({ children }: LayoutProps<"/">) {

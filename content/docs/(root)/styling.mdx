@@ -1,13 +1,13 @@
 ---
 title: Styling
-description: Configure colors and theming for NusaUI components.
+description: Configure theme tokens and color variables for NusaUI components.
 ---
 
-NusaUI components use CSS variables for theming. Adding these variables is optional, but provides consistent styling out of the box.
+NusaUI uses CSS variables as the styling contract. You can keep the defaults or map them into your own design system for a tighter brand match.
 
-## CSS Variables
+## Theme Tokens
 
-For the default color scheme, add these shadcn Tailwind CSS v4 variables to your `globals.css`:
+Add the Tailwind v4 variables below to `globals.css` when you want the full default palette:
 
 ```css title="app/globals.css" showLineNumbers
 @theme inline {
@@ -123,15 +123,16 @@ For the default color scheme, add these shadcn Tailwind CSS v4 variables to your
 }
 ```
 
-## What's Included
+## Token Groups
 
-| Category        | Variables                                                              |
-| --------------- | ---------------------------------------------------------------------- |
-| **Base colors** | background, foreground, primary, secondary, muted, accent, destructive |
-| **Components**  | card, popover, sidebar (with foreground variants)                      |
-| **Charts**      | chart-1 through chart-5                                                |
-| **Utilities**   | border, input, ring, radius                                            |
+| Area              | Tokens included                                           |
+| ----------------- | --------------------------------------------------------- |
+| **Core surfaces** | background, foreground, primary, secondary, muted, accent |
+| **Form states**   | border, input, ring, destructive                          |
+| **Layout pieces** | card, popover, sidebar and their foreground variants      |
+| **Charts**        | chart-1 through chart-5                                   |
+| **Radius scale**  | radius-sm through radius-4xl                              |
 
 ## Dark Mode
 
-Toggle dark mode by adding the `.dark` class to your root element. The variables automatically switch to dark mode values.
+Switch the `.dark` class on the root element and the variables will flip to the dark palette automatically.

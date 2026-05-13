@@ -6,7 +6,7 @@ export function baseOptions(): BaseLayoutProps {
     nav: {
       title: (
         <div className="flex items-center gap-2">
-          <Image src="/nusa-ui-logo.svg" alt="NusaUI" width={20} height={20} />
+          <Image src="/nusaui.png" alt="NusaUI" width={20} height={20} />
           <span>NusaUI</span>
         </div>
       ),

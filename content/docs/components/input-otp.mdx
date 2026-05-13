@@ -1,11 +1,11 @@
 ---
 title: Input OTP
-description: Accessible one-time password input with copy/paste support.
+description: A slot-based field for one-time codes and verification flows.
 ---
 
 <ComponentPreview name="input-otp-demo" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -32,11 +32,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/input-otp.json
 npm install input-otp
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="input-otp" title="components/ui/input-otp.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -44,7 +44,7 @@ npm install input-otp
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import {
@@ -67,7 +67,7 @@ import {
 </InputOTP>
 ```
 
-## Examples
+## More examples
 
 ### With Separator
 
@@ -87,7 +87,7 @@ Use the `pattern` prop to restrict input to specific characters.
 
 <ComponentPreview name="input-otp-pattern" />
 
-## API Reference
+## Props and parts
 
 ### InputOTP
 
@@ -118,6 +118,6 @@ Individual character slot.
 
 Visual separator between groups.
 
-## Credits
+## Notes
 
 Built on top of [input-otp](https://input-otp.rodz.dev/) by [@guilhermerodz](https://github.com/guilhermerodz).

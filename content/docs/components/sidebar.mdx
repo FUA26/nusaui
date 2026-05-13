@@ -1,6 +1,6 @@
 ---
 title: Sidebar
-description: A composable, themeable and customizable sidebar component.
+description: A responsive navigation shell with grouped sections and collapsible modes.
 
 links:
   doc: https://ui.shadcn.com/docs/components/sidebar
@@ -9,7 +9,7 @@ links:
 
 <ComponentPreview name="sidebar-demo" previewClassName="h-[750px]" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -30,17 +30,17 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/sidebar.json
 
 <Steps>
 
-<Step>Install the required dependencies.</Step>
+<Step>Install the needed dependencies first.</Step>
 
 ```bash
 npm install @radix-ui/react-slot class-variance-authority
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="sidebar" title="components/ui/sidebar.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 <Step>Add the sidebar CSS variables to your `globals.css`.</Step>
 
@@ -124,11 +124,11 @@ A `SidebarMenu` is composed of `SidebarMenuItem`, `SidebarMenuButton`, `SidebarM
 />
 
 <Callout>
-  For advanced usage, theming, and more examples, see the [complete shadcn
-  documentation](https://ui.shadcn.com/docs/components/sidebar).
+  For deeper customization, use the upstream Radix docs and this component's
+  source as your reference points.
 </Callout>
 
-## Usage
+## Example usage
 
 ```tsx
 import {
@@ -171,7 +171,7 @@ import {
 </SidebarProvider>
 ```
 
-## API Reference
+## Props and parts
 
 ### Components
 

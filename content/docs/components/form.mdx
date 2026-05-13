@@ -1,11 +1,11 @@
 ---
 title: Form
-description: Form field components for building accessible forms with TanStack Form.
+description: Helpers for building accessible forms with TanStack Form.
 ---
 
 <ComponentPreview name="form-demo" previewClassName="h-[280px]" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -26,17 +26,17 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/form.json
 
 <Steps>
 
-<Step>Install the required dependencies.</Step>
+<Step>Install the needed dependencies first.</Step>
 
 ```bash
 npm install @tanstack/react-form zod
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="form" title="components/ui/form.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -44,7 +44,7 @@ npm install @tanstack/react-form zod
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import { useForm } from "@tanstack/react-form"
@@ -100,7 +100,7 @@ return (
 )
 ```
 
-## Examples
+## More examples
 
 ### With Zod Validation
 
@@ -120,7 +120,7 @@ Add and remove fields dynamically with array mode.
 
 <ComponentPreview name="form-array" previewClassName="h-[550px]" />
 
-## API Reference
+## Props and parts
 
 ### Form
 
@@ -191,7 +191,7 @@ Displays validation error messages when field is touched.
 | ----------- | -------- | ------- | ---------------------- |
 | `className` | `string` | -       | Additional CSS classes |
 
-## Accessibility
+## Accessibility notes
 
 - Labels are automatically associated with inputs via `htmlFor`/`id`
 - Error states use `aria-invalid` attribute

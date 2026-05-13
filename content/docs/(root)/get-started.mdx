@@ -1,21 +1,21 @@
 ---
 title: Get Started
-description: Install and configure NusaUI components in your project.
+description: Install NusaUI components and connect the registry in a few steps.
 ---
 
-## Installation
+## Install a Component
 
 ### Direct URL
 
-Install components directly without any configuration:
+If you want the fastest path, install a component straight from the registry URL:
 
 ```bash
 npx shadcn@latest add https://nusa-ui.vercel.app/r/button.json
 ```
 
-### Namespaced Registry
+### Registry Alias
 
-For a cleaner workflow, configure the NusaUI registry in your `components.json`:
+For repeated installs, add the NusaUI registry to `components.json`:
 
 ```json title="components.json"
 {
@@ -26,15 +26,15 @@ For a cleaner workflow, configure the NusaUI registry in your `components.json`:
 }
 ```
 
-Then install components using short names:
+Then use the shorter alias when adding packages:
 
 ```bash
 npx shadcn@latest add nusa-ui/button
 ```
 
-## Portals Setup
+## Portal Root
 
-NusaUI uses portals for popup components like Dialog and Popover. To ensure these display above all page content, add an `isolation: isolate` style to your application root element:
+Popup components such as Dialog, Select, and Popover rely on portals. Add `isolation: isolate` to your app root so those layers render above the rest of the page:
 
 ```css title="globals.css"
 .root {
@@ -42,24 +42,26 @@ NusaUI uses portals for popup components like Dialog and Popover. To ensure thes
 }
 ```
 
-This creates a separate stacking context, preventing `z-index` conflicts with other page styles.
+That keeps overlay content from colliding with page-level stacking contexts.
 
-## Prerequisites
+## Before You Begin
 
-Your project must be set up with:
+You should already have:
 
-- React 18+
+- React 18 or newer
 - Tailwind CSS v4
-- TypeScript (recommended)
+- TypeScript, if you want full type coverage
 
-Make sure you have initialized shadcn/ui in your project:
+If your project has not been initialized with the CLI yet, start there first:
 
 ```bash
 npx shadcn@latest init
 ```
 
-## Working with LLMs
+## AI Workflows
 
-NusaUI is built on Radix UI. When working with AI assistants, you can reference the Radix UI documentation in markdown format for accurate component APIs and patterns.
+When you use an assistant or agent, point it at the markdown docs and registry output instead of relying on memory. That makes install instructions, props, and patterns easier to verify against the actual source.
 
-See [Radix UI Primitives](https://www.radix-ui.com/primitives) for documentation.
+For Radix-level primitives and deeper API details, refer to the upstream documentation:
+
+https://www.radix-ui.com/primitives

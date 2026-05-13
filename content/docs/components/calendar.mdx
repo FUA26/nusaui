@@ -1,6 +1,6 @@
 ---
 title: Calendar
-description: A date field component that allows users to enter and edit date.
+description: A date grid for selection, range picking, and calendar workflows.
 
 links:
   doc: https://daypicker.dev
@@ -9,7 +9,7 @@ links:
 
 <ComponentPreview name="calendar-demo" previewClassName="h-[380px]" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -36,11 +36,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/calendar.json
 npm install react-day-picker date-fns
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="calendar" title="components/ui/calendar.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -48,7 +48,7 @@ npm install react-day-picker date-fns
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import { Calendar } from "@/components/ui/calendar"
@@ -67,7 +67,7 @@ return (
 )
 ```
 
-## Examples
+## More examples
 
 ### Date Range
 
@@ -90,7 +90,7 @@ Use dropdowns to navigate between months and years.
 
 <ComponentPreview name="calendar-with-dropdown" previewClassName="h-[380px]" />
 
-## API Reference
+## Props and parts
 
 ### Calendar
 

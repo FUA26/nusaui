@@ -1,15 +1,15 @@
 ---
 title: Date Picker
-description: A date picker component with range and presets.
+description: Date and range pickers with preset shortcuts for scheduling flows.
 ---
 
 <ComponentPreview name="date-picker-demo" />
 
-## About
+## Overview
 
 The `DatePicker` is built using a composition of the `<Popover />` and the `<Calendar />` components.
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -43,11 +43,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/calendar.json
 npx shadcn@latest add https://nusa-ui.vercel.app/r/popover.json
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="date-picker" title="components/ui/date-picker.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -55,7 +55,7 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/popover.json
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import { DatePicker, DateRangePicker } from "@/components/ui/date-picker"
@@ -67,7 +67,7 @@ const [date, setDate] = React.useState<Date>()
 return <DatePicker date={date} onDateChange={setDate} />
 ```
 
-## Examples
+## More examples
 
 ### Date Picker
 
@@ -89,7 +89,7 @@ You can add presets for quick date selection.
 
 <ComponentPreview name="date-picker-with-presets" />
 
-## API Reference
+## Props and parts
 
 ### DatePicker
 

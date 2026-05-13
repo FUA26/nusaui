@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div className="mx-auto flex w-full max-w-(--fd-layout-width) flex-1 flex-col items-center justify-center border-x px-4 text-center">
       <Image
-        src="/nusa-ui-logo.svg"
+        src="/nusaui.png"
         alt="NusaUI"
         width={80}
         height={80}
@@ -45,12 +45,6 @@ export default function HomePage() {
           className="border-border bg-background text-foreground hover:bg-muted inline-flex h-10 items-center justify-center gap-2 rounded-4xl border px-6 text-sm font-medium transition-colors"
         >
           Components
-        </Link>
-        <Link
-          href="/docs/blocks"
-          className="border-border bg-background text-foreground hover:bg-muted inline-flex h-10 items-center justify-center gap-2 rounded-4xl border px-6 text-sm font-medium transition-colors"
-        >
-          Blocks
         </Link>
       </div>
     </div>

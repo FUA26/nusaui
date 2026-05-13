@@ -1,6 +1,6 @@
 ---
 title: Combobox
-description: An autocomplete input with a dropdown list of suggestions.
+description: A searchable picker for choosing from a larger option set.
 
 links:
   doc: https://base-ui.com/react/components/combobox
@@ -9,7 +9,7 @@ links:
 
 <ComponentPreview name="combobox-demo" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -30,17 +30,17 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/combobox.json
 
 <Steps>
 
-<Step>Install the required dependencies.</Step>
+<Step>Install the needed dependencies first.</Step>
 
 ```bash
 npm install @base-ui/react
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="combobox" title="components/ui/combobox.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -48,7 +48,7 @@ npm install @base-ui/react
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import {
@@ -79,7 +79,7 @@ const items = ["Next.js", "SvelteKit", "Nuxt.js", "Remix"] as const
 </Combobox>
 ```
 
-## Examples
+## More examples
 
 ### With Clear Button
 
@@ -99,7 +99,7 @@ Use `multiple` for multi-select with chips display.
 
 <ComponentPreview name="combobox-multiple" />
 
-## API Reference
+## Props and parts
 
 ### Components
 

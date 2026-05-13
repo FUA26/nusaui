@@ -67,7 +67,7 @@ export function ResetPasswordForm() {
       {/* Logo */}
       <div className="mb-8">
         <a href="/" className="flex items-center gap-2">
-          <img src="/nusa-ui-logo.svg" alt="NusaUI" className="size-14" />
+          <img src="/nusaui.png" alt="NusaUI" className="size-14" />
         </a>
       </div>
 

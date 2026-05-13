@@ -1,11 +1,11 @@
 ---
 title: Code Block
-description: Display code with syntax highlighting powered by Shiki.
+description: Syntax-highlighted code samples with line numbers and copy support.
 ---
 
 <ComponentPreview name="code-block-demo" />
 
-## Installation
+## Add to your project
 
 <CodeTabs>
 
@@ -32,11 +32,11 @@ npx shadcn@latest add https://nusa-ui.vercel.app/r/code-block.json
 npm install shiki
 ```
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>Paste the source into the matching file in your app.</Step>
 
 <ComponentSource name="code-block" title="components/ui/code-block.tsx" />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>Adjust the import paths to match your app structure.</Step>
 
 </Steps>
 
@@ -44,7 +44,7 @@ npm install shiki
 
 </CodeTabs>
 
-## Usage
+## Example usage
 
 ```tsx
 import { CodeBlock } from "@/components/ui/code-block"
@@ -54,7 +54,7 @@ import { CodeBlock } from "@/components/ui/code-block"
 <CodeBlock code={`console.log("Hello, World!")`} language="javascript" />
 ```
 
-## Examples
+## More examples
 
 ### With Line Numbers
 
@@ -68,7 +68,7 @@ Display a simple command or snippet.
 
 <ComponentPreview name="code-block-simple" />
 
-## API Reference
+## Props and parts
 
 ### CodeBlock
 
