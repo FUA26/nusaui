@@ -46,6 +46,7 @@
     "spinner",
     "empty",
     "typography",
-    "toggle-group"
+    "toggle-group",
+    "button-group"
   ]
 }
