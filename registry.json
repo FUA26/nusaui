@@ -448,6 +448,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "Displays content within a desired ratio.",
+      "dependencies": ["@radix-ui/react-aspect-ratio"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/aspect-ratio.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

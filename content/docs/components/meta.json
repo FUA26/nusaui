@@ -30,6 +30,7 @@
     "slider",
     "scroll-area",
     "radio-group",
-    "toggle"
+    "toggle",
+    "aspect-ratio"
   ]
 }
