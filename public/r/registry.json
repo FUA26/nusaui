@@ -219,6 +219,25 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "A modal dialog that interrupts the user with important content.",
+      "dependencies": [
+        "@radix-ui/react-alert-dialog"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/alert-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
