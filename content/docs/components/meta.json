@@ -19,6 +19,7 @@
     "avatar",
     "separator",
     "tooltip",
-    "collapsible"
+    "collapsible",
+    "code-block"
   ]
 }

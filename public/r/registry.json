@@ -364,6 +364,26 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "code-block",
+      "type": "registry:ui",
+      "title": "Code Block",
+      "description": "Display code with syntax highlighting powered by Shiki.",
+      "dependencies": [
+        "shiki"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/copy-button.json",
+        "https://nusa-ui.vercel.app/r/scroll-area.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/code-block.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
