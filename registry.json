@@ -655,6 +655,20 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "title": "Empty",
+      "description": "Display an empty state when no data is available.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/empty.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

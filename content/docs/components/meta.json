@@ -43,6 +43,7 @@
     "calendar",
     "date-picker",
     "data-table",
-    "spinner"
+    "spinner",
+    "empty"
   ]
 }
