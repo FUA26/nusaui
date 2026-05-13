@@ -37,6 +37,7 @@
     "pagination",
     "table",
     "tag-input",
-    "command"
+    "command",
+    "copy-button"
   ]
 }

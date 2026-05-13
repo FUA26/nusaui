@@ -550,6 +550,22 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "copy-button",
+      "type": "registry:ui",
+      "title": "Copy Button",
+      "description": "A button that copies text to the clipboard with visual feedback.",
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/copy-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
