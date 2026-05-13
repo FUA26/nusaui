@@ -163,6 +163,20 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "A window overlaid on the primary window.",
+      "dependencies": ["@radix-ui/react-dialog"],
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

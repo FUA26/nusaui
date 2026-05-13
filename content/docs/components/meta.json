@@ -10,6 +10,7 @@
     "textarea",
     "select",
     "checkbox",
-    "switch"
+    "switch",
+    "dialog"
   ]
 }
