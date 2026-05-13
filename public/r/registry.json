@@ -27,6 +27,20 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Displays a badge or a component that looks like a badge.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
