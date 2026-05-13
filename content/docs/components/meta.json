@@ -9,6 +9,7 @@
     "form",
     "textarea",
     "select",
-    "checkbox"
+    "checkbox",
+    "switch"
   ]
 }
