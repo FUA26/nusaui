@@ -12,6 +12,7 @@
     "checkbox",
     "switch",
     "dialog",
-    "alert-dialog"
+    "alert-dialog",
+    "dropdown-menu"
   ]
 }
