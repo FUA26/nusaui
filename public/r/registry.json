@@ -6,7 +6,10 @@
     {
       "name": "utils",
       "type": "registry:lib",
-      "dependencies": ["clsx", "tailwind-merge"],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
       "files": [
         {
           "path": "registry/new-york/lib/utils.ts",
@@ -19,8 +22,13 @@
       "type": "registry:ui",
       "title": "Button",
       "description": "Displays a button or a component that looks like a button.",
-      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
-      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/new-york/ui/button.tsx",
@@ -33,11 +41,40 @@
       "type": "registry:ui",
       "title": "Badge",
       "description": "Displays a badge or a component that looks like a badge.",
-      "dependencies": ["class-variance-authority"],
-      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/new-york/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "files": [
+        {
+          "path": "registry/new-york/hooks/use-mobile.tsx",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Displays a card with header, content, and footer.",
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/card.tsx",
           "type": "registry:ui"
         }
       ]
