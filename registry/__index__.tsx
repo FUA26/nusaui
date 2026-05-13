@@ -1000,6 +1000,15 @@ export const Index: Record<string, RegistryEntry> = {
     ),
     files: ["registry/new-york/blocks/dashboard-stats.tsx"],
   },
+  "dashboard-sidebar": {
+    name: "dashboard-sidebar",
+    component: React.lazy(() =>
+      import("./new-york/blocks/dashboard-sidebar").then((m) => ({
+        default: m.DashboardSidebar,
+      }))
+    ),
+    files: ["registry/new-york/blocks/dashboard-sidebar.tsx"],
+  },
   "forgot-password-form": {
     name: "forgot-password-form",
     component: React.lazy(() =>
@@ -1008,6 +1017,15 @@ export const Index: Record<string, RegistryEntry> = {
       }))
     ),
     files: ["registry/new-york/blocks/forgot-password-form.tsx"],
+  },
+  "login-form": {
+    name: "login-form",
+    component: React.lazy(() =>
+      import("./new-york/blocks/login-form").then((m) => ({
+        default: m.LoginForm,
+      }))
+    ),
+    files: ["registry/new-york/blocks/login-form.tsx"],
   },
   "reset-password-form": {
     name: "reset-password-form",
