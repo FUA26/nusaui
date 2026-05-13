@@ -27,6 +27,7 @@
     "sonner",
     "popover",
     "skeleton",
-    "slider"
+    "slider",
+    "scroll-area"
   ]
 }
