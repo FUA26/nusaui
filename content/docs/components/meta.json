@@ -25,6 +25,7 @@
     "progress",
     "sheet",
     "sonner",
-    "popover"
+    "popover",
+    "skeleton"
   ]
 }

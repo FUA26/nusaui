@@ -379,6 +379,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Use to show a placeholder while content is loading.",
+      "registryDependencies": ["https://nusa-ui.vercel.app/r/utils.json"],
+      "files": [
+        {
+          "path": "registry/new-york/ui/skeleton.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
