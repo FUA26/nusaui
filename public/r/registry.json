@@ -886,6 +886,27 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "title": "Input Group",
+      "description": "Add addons, buttons, and helper content to inputs.",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json",
+        "https://nusa-ui.vercel.app/r/button.json",
+        "https://nusa-ui.vercel.app/r/input.json",
+        "https://nusa-ui.vercel.app/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/input-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

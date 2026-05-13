@@ -48,6 +48,7 @@
     "typography",
     "toggle-group",
     "button-group",
-    "field"
+    "field",
+    "input-group"
   ]
 }
