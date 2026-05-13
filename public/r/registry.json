@@ -487,6 +487,24 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "An input where the user selects a value from within a given range.",
+      "dependencies": [
+        "@radix-ui/react-slider"
+      ],
+      "registryDependencies": [
+        "https://nusa-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
