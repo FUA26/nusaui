@@ -13,6 +13,7 @@
     "switch",
     "dialog",
     "alert-dialog",
-    "dropdown-menu"
+    "dropdown-menu",
+    "tabs"
   ]
 }
