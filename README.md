@@ -1,6 +1,6 @@
 # NusaUI
 
-[![CI](https://github.com/codewithmehmet/nusa-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/codewithmehmet/nusa-ui/actions/workflows/ci.yml)
+[![CI](https://github.com/FUA26/nusaui/actions/workflows/ci.yml/badge.svg)](https://github.com/FUA26/nusaui/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8)](https://tailwindcss.com/)
@@ -15,6 +15,29 @@ The docs site currently covers the core component catalog, get-started flow, and
 ---
 
 ## Quick Start
+
+### Local package usage (without publish)
+
+Install this repo as a local dependency from another project:
+
+```bash
+pnpm add file:../NusaUI
+```
+
+Then import components directly:
+
+```tsx
+import { Button } from "nusa-ui/ui/button"
+```
+
+If your app uses Next.js, add this package to `transpilePackages`:
+
+```js
+// next.config.mjs
+export default {
+  transpilePackages: ["nusa-ui"],
+}
+```
 
 ### Install a component from the registry
 

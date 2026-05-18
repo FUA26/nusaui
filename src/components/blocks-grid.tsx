@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 const blocks = [
+  { name: "Dashboard Sidebar", href: "/docs/blocks/dashboard-sidebar" },
   { name: "Dashboard Stats", href: "/docs/blocks/dashboard-stats" },
   { name: "Login Form", href: "/docs/blocks/login-form" },
   { name: "Sign In", href: "/docs/blocks/signin-form" },

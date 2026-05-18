@@ -7,7 +7,7 @@ Thank you for your interest in contributing to nusa-ui! This document provides g
 1. **Fork & Clone**
 
    ```bash
-   git clone https://github.com/your-username/nusa-ui.git
+   git clone git@github.com:FUA26/nusaui.git
    cd nusa-ui
    ```
 

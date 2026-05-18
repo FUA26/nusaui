@@ -11,6 +11,6 @@ export function baseOptions(): BaseLayoutProps {
         </div>
       ),
     },
-    githubUrl: "https://github.com/codewithmehmet/nusa-ui",
+    githubUrl: "https://github.com/FUA26/nusaui",
   }
 }

@@ -1,0 +1,42 @@
+---
+title: Dashboard Sidebar
+description: Backoffice dashboard sidebar layout adapted from the /tasks layout in Sonnar.
+---
+
+<ComponentPreview
+  name="dashboard-sidebar"
+  previewClassName="h-[700px] items-start p-0!"
+/>
+
+## Installation
+
+```bash
+npx shadcn@latest add https://nusa-ui.vercel.app/r/dashboard-sidebar.json
+```
+
+## Usage
+
+This block provides a **dashboard sidebar shell** with menu groups and collapsible submenus:
+
+```tsx
+import { DashboardSidebar } from "@/components/blocks/dashboard-sidebar"
+
+export default function DashboardPage() {
+  return <DashboardSidebar />
+}
+```
+
+## Features
+
+- Sidebar layout with `SidebarProvider`, `Sidebar`, and `SidebarInset`
+- Backoffice-style navigation structure
+- Active state preview on `/tasks`
+- Collapsible `Manage` menu with nested items
+- Responsive behavior via sidebar primitives
+
+## Customization
+
+- Replace navigation items in `navItems`
+- Wire active path to your router path instead of static `/tasks`
+- Update branding/header content in `SidebarHeader`
+- Add footer actions or user menu as needed

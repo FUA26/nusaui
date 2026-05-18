@@ -17,7 +17,7 @@ export default function HomePage() {
 
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">NusaUI</h1>
       <Link
-        href="https://github.com/codewithmehmet/nusa-ui/releases"
+        href="https://github.com/FUA26/nusaui/releases"
         className="bg-muted hover:bg-muted/80 mt-2 rounded-full px-2.5 py-0.5 font-mono text-xs transition-colors"
       >
         v{version}
